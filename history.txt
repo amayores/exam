@@ -1,0 +1,65 @@
+   25  mkdir git
+   26  cd git
+   27  git clone https://github.com/amayores/exam.git
+   31  cp -r * ~/desktop/git/exam
+   35  cd git
+   40  git add *
+   41  git commit -m "added new folders"
+   42  git push origin master
+   47  cd ~/desktop/git/exam
+   48  git branch v2.0
+   49  git checkout v2.0
+   50  git status
+   51  git merge master
+   52  git commit -m "added new branch"
+   54  git add *
+   55  git commit -m "new branch"
+   56  git add 0a
+   57  git add -a
+   58  git commit -m "new branch"
+   59  git add .hiddenfile
+   60  git commit -m "new branch"
+   61  git push origin v2.0
+   62  git checkout master
+   65  git add index.html
+   66  git commit -m "edited index"
+   67  git pull --no-edit
+   68  git push origin master
+   69  git checkout v2.0
+   70  git merge master
+   71  git push origin v2.0
+   73  git branch
+   74  git branch master
+   75  git checkout master
+   76  git branch v3.0
+   77  git checkout v3.0
+   78  git status
+   79  git add *
+   80  git commit -m "new version"
+   81  git push origin master
+   82  git checkout master
+   83  git checkout v3.0
+   84  git checkout master
+   86  git add index.html
+   87  git commit -m "edited index"
+   88  git push origin master
+   89  git checkout v3.0
+   90  git push origin v3.0
+   91  git checkout origin master
+   92  git checkout master
+   93  git checkout v2.0
+   94  git merge master
+   95  git push origin v2.0
+   97  git checkout v3.0
+   98  git checkout master
+  100  git status
+  101  git add index.html
+  102  git commmit -m "edited"
+  103  git commit -m "edited"
+  104  git git push origin master
+  105  git push origin master
+  106  git checkout v3.0
+  107  git merge master
+  109  git checkout master
+  113  history | grep "git"
+  114  history | grep "git" > history.txt
